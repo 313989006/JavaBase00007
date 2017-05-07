@@ -24,7 +24,6 @@ public class MethodOverload {
 		result2=p.add(1.2f , 3.6f);
 		System.out.println(result2);
 	}
-
 }
 */
 public class MethodOverload{
@@ -42,4 +41,3 @@ public class MethodOverload{
 			ak.show("构造方法的使用演示**********");
 		}
 		}
-
