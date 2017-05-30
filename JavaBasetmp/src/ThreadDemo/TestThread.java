@@ -1,5 +1,5 @@
 package ThreadDemo;
-
+	//售票系统
 public class TestThread implements Runnable{
 	private int tickets=5;
 	public void run(){
@@ -17,5 +17,4 @@ public class TestThread implements Runnable{
 			}
 		}
 	}
-
 }

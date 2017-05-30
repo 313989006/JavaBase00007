@@ -7,7 +7,7 @@ public class ObjectArrayDemo2 {
 		int tmp[] ={1,3,5,7,9};
 		//使用Object接收数组
 		Object obj = tmp;
-		print(obj);
+		print(obj);//调用print()方法
 	}
 	public static void print(Object o) {
 		//判断o是不是整数数组

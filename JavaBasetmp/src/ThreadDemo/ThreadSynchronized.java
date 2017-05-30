@@ -10,5 +10,4 @@ public class ThreadSynchronized {
 		new Thread(t).start();
 		new Thread(t).start();
 	}
-
 }

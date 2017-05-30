@@ -7,7 +7,7 @@ public class Person {
 		this.id = id;
 		this.name = name;
 	}
-	//重写hashCode方法(重写equals()方法也必须重写hashCode()方法)
+	//重写hashCode方法(重写equals()方法也必须重写hashCode()方法)返回的是其所在对象的物理地址
 	public int hashCode() {
 		return id*(name.hashCode());
 	}
